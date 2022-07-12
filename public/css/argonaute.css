@@ -89,8 +89,21 @@ footer p {
 /* *******************  */
 
 /* CSS Form */
+
 .form {
   margin: 0 auto;
+}
+
+.form-control {
+  font-family: 'antik', sans-serif;
+  font-size: 15px;
+  
+}
+/* *******************  */
+
+/* CSS table */
+.table {
+  margin-bottom: 100px;
 }
 
 th {
