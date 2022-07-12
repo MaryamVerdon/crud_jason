@@ -14,15 +14,15 @@
   <!-- Main section -->
   <main class="container mt-5">
     
-    <div class="col-4 text-center mb-5">
+    <div class="form col-4 text-center mb-5">
     <!-- New member form -->
-    <h2>Ajouter un(e) Argonaute</h2>
+    <h2 >Ajouter un(e) Argonaute</h2>
    
     {{ form_start(form) }}
     {{ form_row(form.nom) }}
 
     <div class="text-center">
-        <button type="submit" class="btn btn-dark">
+        <button type="submit" class="btn btn-dark" style="font-family: 'ceasar', sans-serif;">
             Envoyer
         </button>
     </div>
@@ -31,8 +31,9 @@
     
 </div>
 
+<h1 class="titre">Mon equipage de {{ argonautes | length }} Argonautes ! </h1>
   <!-- Equipage -->
-    <table class="table">
+    <table class="table table-bordered">
         {% set columns = 3 %}
         <thead>
             <tr>

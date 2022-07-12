@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* importatin Polices*/ 
+@font-face {
+  font-family: "meteora";
+  src: url("MeteoraRocky.ttf");
+}
+
+@font-face {
+  font-family: "antik";
+  src: url("SteinAntik-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ceasar";
+  src: url("CaesarDressing-Regular.ttf");
+}
+
+/* importatin Polices*/ 
+
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'antik', sans-serif;
 }
 
 main {
@@ -24,12 +42,10 @@ header h1 {
   font-size: 2.5em;
 }
 
-footer {
-  background: 
-}
 
 h1, h2 {
   text-align: center;
+  font-family: 'ceasar';
 }
 
 label {
@@ -46,11 +62,43 @@ label {
   padding: 0.25em 0;
 }
 
-footer {
-  margin-top: 2em;
-  text-align: center;
-  color: #fff;
-  background: #f76c6c;
-  padding: 0.25em 0;
+.titre  {
+  font-family: 'meteora', sans-serif;
+  font-size: 60px;
 }
 
+/* CSS Footer*/
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f76c6c;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  color: white;
+  font-family: 'antik', sans-serif;
+  font-size: 15px;
+}
+
+/* *******************  */
+
+/* CSS Form */
+.form {
+  margin: 0 auto;
+}
+
+th {
+  font-family: 'ceasar', sans-serif;
+}
+
+tr {
+  font-family: 'antik', sans-serif;
+}
+
+/* *******************  */
