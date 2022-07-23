@@ -3,6 +3,10 @@ Cette application à pour but d'enregistrer un équipier, à l'aide d'un formula
 
 Technologies utilisées : `Symfony`, `Bootstrap`
 
+
+![argonaute](https://user-images.githubusercontent.com/74917307/180613129-d0bd70f5-a8be-4e21-bba8-a351575935db.PNG)
+
+
 ## Comment participer au projet ?
 
 1. Git clone
@@ -24,4 +28,7 @@ Technologies utilisées : `Symfony`, `Bootstrap`
         
             $ bin/console doctrine:schema:create
     
-  ## Rendu final
+  ## Démo
+
+https://user-images.githubusercontent.com/74917307/180613273-2d8a4a4a-01aa-475a-9876-752b7f2d6cdf.mp4
+
